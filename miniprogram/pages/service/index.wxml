@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="service_header">
+    <p>车主服务</p>
+  </view>
+  <view class="service_nav">
+    <view class="service_items" wx:for="{{serverList}}"  wx:for-item="itemName" wx:key="key" >
+      <view>
+        <image src="{{itemName.img}}" />
+      </view>
+      <view class="service_item_title">
+        {{itemName.name}}
+      </view>
+    </view>
+  </view>
+  <view class="service_main">
+    <view>各种小常识</view>
+    <view>
+     
+    </view>
+  </view>
+</view>

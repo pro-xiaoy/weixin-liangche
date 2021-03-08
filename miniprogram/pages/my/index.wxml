@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="my_login_bg">
+    <p>登录后得到完整优惠</p>
+    <view class="my_login_btn">
+      微信快捷方式登录
+    </view>
+  </view>
+  <view class="my_company_container">
+    <view class="company_container" wx:for="{{companyList}}"  wx:for-item="itemName" wx:key="key">
+      <view class="company_container_title">{{itemName.name}}</view>
+      <view class="company_container_menu company_container_phone" data-item="{{itemName}}" bindtap="clickPhone">
+        {{itemName.phone}}
+        <image class="company_container_icon" src="../assets/phone-lined.png" />
+      </view>
+      <view class="company_container_menu company_container_local" data-item="{{itemName}}" bindtap="clickLocal">
+        {{itemName.local}}
+        <image class="company_container_icon" src="../assets/local-taxi.png" />
+      </view>
+    </view>
+  </view>
+</view>

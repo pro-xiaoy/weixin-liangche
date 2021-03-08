@@ -1,0 +1,33 @@
+.service_header {
+  width: 100%;
+  height: 260rpx;
+  background-color: black;
+  position: relative;
+}
+.service_header p {
+  color: #fff;
+  font-size: 40rpx;
+  position: absolute;
+  bottom: 30rpx;
+  left: 30rpx;
+}
+.service_nav {
+  width: 600rpx;
+  display: flex;
+  margin-top: 30rpx;
+}
+.service_items {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 28rpx;
+  align-items: center;
+}
+.service_items image {
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.service_item_title {
+font-size: 30rpx;
+}

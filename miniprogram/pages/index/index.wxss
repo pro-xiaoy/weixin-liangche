@@ -1,0 +1,90 @@
+/**index.wxss**/
+.banner_img {
+  width: 750rpx;
+  height: 350rpx;
+  background-color: #ccc;
+  position: relative;
+}
+.local_contain {
+  width: 600rpx;
+  height: 120rpx;
+  background-color: #fff;
+  position: absolute;
+  border-radius: 30rpx;
+  left: 50%;
+  margin-left: -300rpx;
+  bottom: -60rpx;
+  box-shadow: 2rpx 2rpx #ccc;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.local_company_logo {
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.local_logo {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 60rpx;
+}
+.sales_template {
+  width: 600rpx;
+  margin: 20rpx auto;
+  margin-top: 80rpx;
+  border: 1rpx solid red;
+}
+.template_title {  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.template_title p{
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.template_title span{
+  color: #ccc;
+  font-size: 30rpx;
+}
+.sales_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20rpx 0;
+}
+.sales_item {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+  align-items: center;
+  padding: 10rpx 14rpx 15rpx;
+  border-radius: 4rpx;
+  box-shadow: 2rpx 2rpx #ccc;
+  border-bottom: 6rpx solid red;
+}
+.sales_item .sales_headprot {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+.sales_item .sales_username {
+  font-size: 30rpx;
+}
+.car_items {
+  flex: 1;
+  margin: 0 5rpx;
+}
+.car_items_image image {
+  width: 100%;
+  height: 160rpx;
+}
+/* .sales_item p{
+  text-align: center;
+} */

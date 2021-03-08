@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="banner_img">
+    <view class="local_contain" bindtap="clickLocal">
+      <view class="local_company_logo"></view>
+      <view>大渡口镇靓车饰界</view>
+      <image src="../assets/local.png" class="local_logo"/>
+    </view>
+  </view>
+  <view class="sales_template">
+    <view class="template_title">
+      <p>金牌销售</p>
+      <span>更多></span>
+    </view>
+    <view class="sales_container">
+      <view class="sales_item" wx:for="{{saleLists}}"  wx:for-item="itemName" wx:key="key" >
+        <view class="sales_headprot">
+        </view>
+        <view class="sales_username">
+          {{itemName.name}}
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="sales_template cars_template">
+    <view class="template_title">
+      <p>热门车型</p>
+      <span>更多></span>
+    </view>
+    <view class="sales_container">
+      <view class="car_items" wx:for="{{carLists}}"  wx:for-item="itemName" wx:key="index" >
+        <view class="car_items_image">
+          <image src="{{itemName.img}}" />
+        </view>
+        <view>
+          
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

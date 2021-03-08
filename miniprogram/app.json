@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/service/index",
+    "pages/my/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "靓车饰界",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/assets/index_off.png",
+        "selectedIconPath": "pages/assets/index_on.png"
+      },
+      {
+        "text": "服务",
+        "pagePath": "pages/service/index",
+        "iconPath": "pages/assets/server_off.png",
+        "selectedIconPath": "pages/assets/server_on.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/index",
+        "iconPath": "pages/assets/My_off.png",
+        "selectedIconPath": "pages/assets/My_on.png"
+      }
+    ]
+  }
+}
