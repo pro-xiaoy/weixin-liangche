@@ -50,7 +50,7 @@ Page({
           latitude,
           longitude,
           scale: 18,
-          address: item.address
+          address: '东至县靓车饰界汽车销售服务有限公司大渡口分公司'
         })
       }
     })
